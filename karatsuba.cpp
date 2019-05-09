@@ -22,12 +22,7 @@ int karatsuba(int x, int y){
 int main(){
     int x,y;
     cin>>x>>y;
-    // x=5678;
+    // x=5678, y=1234;
     long prod = karatsuba(x,y);
     cout<<prod<<endl;
-    // int n = ceil(log10(x));
-    // cout<<n<<endl;
-    // int a = x/pow(10,(n/2));
-    // double b = fmod(x,pow(10,(n/2)));
-    // cout<<a<<" "<<b<<endl;
 }
